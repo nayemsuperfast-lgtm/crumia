@@ -20,20 +20,22 @@ A fast, lightweight, privacy-first Android web browser powered by **Android Syst
 
 ## Building Locally
 
-1. Open the project in **Android Studio** (JDK 11+, Android SDK 36).
+1. Open the project in **Android Studio** (JDK 11+, Android SDK 36), or install Gradle 9.3.1.
 2. Run unit & Robolectric tests:
    ```bash
-   ./gradlew :app:testDebugUnitTest
+   gradle :app:testDebugUnitTest
    ```
 3. Build Debug or Release APK:
    ```bash
-   ./gradlew :app:assembleDebug
-   ./gradlew :app:assembleRelease
+   gradle :app:assembleDebug
+   gradle :app:assembleRelease
    ```
 
-## Signing Keys & GitHub Releases
+## Signing Keys & GitHub APK Releases
 
-Keep signing keys and passwords **out of version control**.
+On every push to `main` (or manual **Run workflow** in GitHub Actions), **Crumia Android CI & Release** builds and uploads `crumia-debug-apk` as a downloadable artifact under the **Actions** tab—no signing secrets required.
+
+To also publish signed Release APKs, keep signing keys and passwords **out of version control**:
 
 1. Generate an upload keystore locally:
    ```bash
@@ -43,4 +45,4 @@ Keep signing keys and passwords **out of version control**.
    - `ANDROID_KEYSTORE_BASE64`
    - `STORE_PASSWORD`
    - `KEY_PASSWORD`
-3. Tag a release (e.g., `git tag v1.0.0 && git push origin v1.0.0`) to trigger GitHub Actions to build, test, and publish the Debug and Release APKs to **GitHub Releases**.
+3. Tag a release (e.g., `git tag v1.0.0 && git push origin v1.0.0`) to trigger GitHub Actions to build, test, and attach the APK(s) to **GitHub Releases**.
