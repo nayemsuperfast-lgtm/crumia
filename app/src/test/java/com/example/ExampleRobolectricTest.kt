@@ -61,7 +61,7 @@ class ExampleRobolectricTest {
             .allowMainThreadQueries()
             .build()
         try {
-            val prefs = com.example.data.prefs.PreferencesRepository(context)
+            val prefs = (context as CrumiaApplication).preferencesRepository
             val engine = com.example.adshield.AdShieldEngine(
                 db.filterRuleDao(),
                 db.siteSettingDao(),

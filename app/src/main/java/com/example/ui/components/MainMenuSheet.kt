@@ -19,10 +19,10 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.rounded.AddToHomeScreen
 import androidx.compose.material.icons.automirrored.rounded.ArrowForward
 import androidx.compose.material.icons.automirrored.rounded.OpenInNew
 import androidx.compose.material.icons.rounded.Add
-import androidx.compose.material.icons.rounded.AddToHomeScreen
 import androidx.compose.material.icons.rounded.Bookmarks
 import androidx.compose.material.icons.rounded.Close
 import androidx.compose.material.icons.rounded.DesktopWindows
@@ -230,7 +230,7 @@ fun MainMenuSheet(
                         MenuRow(Icons.Rounded.Translate, "Translate...", tag = "menu_translate") {
                             onTranslatePage(); onDismiss()
                         }
-                        MenuRow(Icons.Rounded.AddToHomeScreen, "Add to Homepage", tag = "menu_add_homepage") {
+                        MenuRow(Icons.AutoMirrored.Rounded.AddToHomeScreen, "Add to Homepage", tag = "menu_add_homepage") {
                             onAddToHomepage(); onDismiss()
                         }
                         Row(
