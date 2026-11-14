@@ -1,0 +1,6 @@
+{
+  "name": "Crumia",
+  "description": "Fast, privacy-first Android web browser with built-in Ad Shield, multi-tab management, Incognito mode, and smart search.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

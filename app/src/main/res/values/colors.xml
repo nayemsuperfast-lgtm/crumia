@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="crumia_splash_bg">#FF0F0C21</color>
+    <color name="crumia_cyan">#FF38BDF8</color>
+    <color name="crumia_indigo">#FF6366F1</color>
+    <color name="crumia_violet">#FF8B5CF6</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

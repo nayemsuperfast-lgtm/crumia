@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Crumia</string>
+    <string name="cd_crumia_logo">Crumia logo</string>
+    <string name="cd_back">Navigate back</string>
+    <string name="cd_forward">Navigate forward</string>
+    <string name="cd_home">Go to homepage</string>
+    <string name="cd_reload">Reload page</string>
+    <string name="cd_stop">Stop loading</string>
+    <string name="cd_tabs">Open tab switcher</string>
+    <string name="cd_menu">Open main menu</string>
+    <string name="cd_ad_shield">Crumia Ad Shield</string>
+    <string name="cd_voice_search">Voice search</string>
+    <string name="cd_clear_input">Clear address bar</string>
+    <string name="cd_security_https">Secure HTTPS connection</string>
+    <string name="cd_security_http">Not secure HTTP connection</string>
+    <string name="cd_bookmark">Bookmark this page</string>
+    <string name="cd_close_tab">Close tab</string>
+    <string name="cd_new_tab">New tab</string>
+    <string name="cd_new_incognito_tab">New private tab</string>
+    <string name="search_hint">Search or type URL</string>
+    <string name="incognito_badge">Private</string>
+    <string name="error_no_internet_title">No Internet Connection</string>
+    <string name="error_no_internet_desc">Check your Wi-Fi or mobile data connection and try again.</string>
+    <string name="error_ssl_title">Connection Not Private</string>
+    <string name="error_ssl_desc">Crumia blocked this page because its SSL security certificate could not be verified.</string>
+    <string name="error_page_title">Website Unavailable</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_return_home">Return Home</string>
+    <string name="action_go_back_safety">Go Back to Safety</string>
+</resources>

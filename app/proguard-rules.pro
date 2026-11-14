@@ -1,0 +1,5 @@
+-dontwarn okhttp3.**
+-dontwarn okio.**
+-keep class com.example.data.db.** { *; }
+-keepattributes *Annotation*
+-keepattributes Signature
